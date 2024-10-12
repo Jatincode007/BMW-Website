@@ -112,10 +112,13 @@ function rejoy() {
 
 
         loader.style.display = "none";
-        document.querySelector("#re").style.display = "none";
+        document.querySelector("#re").style.opacity = "0";
+        
 
 
     }, 4360);
+
+    
 
 
     gsap.from(".loader h1", {
@@ -169,7 +172,7 @@ function page5() {
     setInterval(function () {
 
        
-            num+=100;
+            num+=97;
             document.querySelector(".page5 span").textContent = num;
             document.querySelector(".page5 span").style.opacity = "0.7";
 

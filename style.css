@@ -225,7 +225,7 @@ a{
     background-color: rgba(49, 46, 45, 0.415);
     background-image: url(https://bmw.scene7.com/is/image/BMW/iX:3to1?fmt=webp&wid=1504&hei=501);
    
-    background-size: contain;
+    background-size: cover;
     color: aliceblue;
 }
 
@@ -240,7 +240,7 @@ a{
     background-color: rgba(49, 46, 45, 0.415);
     background-image: url(https://bmw.scene7.com/is/image/BMW/DI21_000048047_3000_3000:3to1?fmt=webp&wid=1504&hei=501);
     
-    background-size: contain;
+    background-size: cover;
 }
 
 .heading2{
@@ -294,7 +294,7 @@ a{
     background-color: rgba(49, 46, 45, 0.415);
     background-image: url(https://bmw.scene7.com/is/image/BMW/iX_Banner1:3to1?fmt=webp&wid=1504&hei=501);
     
-    background-size: contain;
+    background-size: cover;
 }
 
 .elem1 {
@@ -824,16 +824,7 @@ a{
     width: 200px;
 }
 
-.list {
-    margin-right: 1.5vw;
-    font-size: 1.3vw;
 
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-
-
-}
 
 .social {
     font-size: 1.5vw;
@@ -896,7 +887,44 @@ a{
     font-size: 3vw;
 }
 
+#mobile{
+    display: none;
+}
+
 @media screen and (max-width:768px) {
+
+
+    #mobile{
+
+        box-shadow: inset 1px 1px 80px 20px black;
+
+        font-family: low;
+
+        margin-top: 0%;
+        background-color: rgba(135, 206, 250, 0.203);
+        padding: 93% 0%;
+        backdrop-filter: blur(5px);
+        
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+       
+       
+       
+        justify-content: center;
+       
+    }
+
+    #mob{ 
+
+        margin-right: 2vw;
+        
+        width: 100px;
+      
+    }
+
+
 
     .cursor {
         display: none;
@@ -908,30 +936,75 @@ a{
 
     }
 
-    .page1 nav {
+   
 
-        font-size: 30px;
+    nav ul{
+        display: none;
+    }
+
+   
+    #l2{
+       
+     
+        margin-left: 70%;
+        display: flex;
+    }
+
+    #logo{
+        width: 90px;
 
     }
 
+    .loader h1{
+        margin-top: 3%;
+        font-size: larger;
+    }
+
+
 
     .page1-content #re {
+        opacity: 1;
         padding-bottom: 10%;
-        margin-bottom: 80%;
+        margin-bottom: 50%;
         font-size: 25vw;
         font-family: rejoy;
     }
 
 
 
-    #h1-1 {
-        opacity: 1;
-    }
+    
 
     .page2 {
-        display: flex;
-        align-items: center;
-        height: 500px;
+       
+        height: 137px;
+    }
+
+    .page2-1 {
+       
+        height: 137px;
+    }
+
+    #bt1{
+        font-size: small;
+        width: 100px;
+        height: 30px;
+    }
+
+    .page2-2 {
+       
+        height: 137px;
+    }
+
+    .heading2{ 
+        margin-left: 20%;
+        padding: 18% 5%;
+      
+    
+    }
+    .heading3{
+    
+        padding: 10% 5%;
+    
     }
 
 
@@ -952,22 +1025,64 @@ a{
 
     }
 
+    
+
+    .offer img{
+        width: 200px;
+    }
+
+    .offer{
+        box-shadow: 15px 15px 0px 5px  white;
+      
+    }
+
+    .top-top {
+
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        height: 60vh;
+        padding: 20% 0;
+       
+    }
+
+    
+
     .top h4 {
         height: 100%;
         font-size: 14px;
     }
 
     .top {
-        margin-bottom: 0%;
+
+        width: 80%;
+        margin-right: 10%;
+       
 
     }
 
     .top h1 {
 
+        
 
-        font-size: 28px;
-        margin-bottom: 0%;
+
+        font-size: 24px;
+        
     }
+
+    .top h3{
+        width: 80%;
+        font-size: 12px;
+
+    }
+
+    .top h4{
+        font-size: 10px;
+
+    }
+
+
 
     .video-top {
 
@@ -984,18 +1099,24 @@ a{
     }
 
     .content {
-        height: 500px;
+        height: 400px;
 
     }
 
     .card {
 
 
-        height: 250px;
+        height: 230px;
     }
 
     .page5 {
-        height: 600px;
+        height: 200px;
+    }
+
+    .elem3 video{
+
+        width:200px;
+
     }
 
     .elem2 {
@@ -1030,6 +1151,9 @@ a{
         font-size: 10px;
     }
 
+    .nav2{
+        justify-content: space-evenly;
+    }
     .nav2 button {
 
         color: aliceblue;
@@ -1039,7 +1163,7 @@ a{
         padding: 4px 0px;
         border-radius: 100px;
         border: solid white 1px;
-        width: 120px;
+        width: 80px;
     }
 
     .nav2 a {
@@ -1052,11 +1176,28 @@ a{
     }
 
     .page6 {
-        height: 300px;
+        height: 200px;
     }
 
     .page7 {
         padding: 0%;
+    }
+
+    #steer{
+        width: 80px;
+    }
+
+    .page8{
+        height: 300px;
+    }
+
+   
+
+
+    
+    .social a{
+        font-size: 7px;
+        padding: 3.2px;
     }
 
 }
