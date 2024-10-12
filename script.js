@@ -65,16 +65,16 @@ function cursoreffect() {
         })
 
 
-    var nav=document.querySelector("nav");
-    var steer=document.querySelector(".cursor");
-    nav.addEventListener("mouseenter" ,function(){
-        steer.style.display="none";
+        var nav = document.querySelector("nav");
+        var steer = document.querySelector(".cursor");
+        nav.addEventListener("mouseenter", function () {
+            steer.style.display = "none";
 
-    })
-    nav.addEventListener("mouseleave" ,function(){
-        steer.style.display="flex";
+        })
+        nav.addEventListener("mouseleave", function () {
+            steer.style.display = "flex";
 
-    })
+        })
 
 
 
@@ -113,12 +113,12 @@ function rejoy() {
 
         loader.style.display = "none";
         document.querySelector("#re").style.opacity = "0";
-        
+
 
 
     }, 4360);
 
-    
+
 
 
     gsap.from(".loader h1", {
@@ -171,17 +171,17 @@ function page5() {
 
     setInterval(function () {
 
-       
-            num+=97;
-            document.querySelector(".page5 span").textContent = num;
-            document.querySelector(".page5 span").style.opacity = "0.7";
+
+        num += 97;
+        document.querySelector(".page5 span").textContent = num;
+        document.querySelector(".page5 span").style.opacity = "0.7";
 
 
 
-       
-           
 
-       
+
+
+
 
 
 
