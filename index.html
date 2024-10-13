@@ -43,6 +43,8 @@
 
                 </div>
 
+                
+
                 <nav>
 
                     <ul>
@@ -65,15 +67,46 @@
                         <li> <a href="https://www.bmw.in/en/publicPools/search-results/search-results.html"><i
                                     class="ri-search-2-line"></i></a> </li>
 
+                                    <li id="menu-icon" onclick=showmenu()><i class="ri-menu-fill"></i></li>
+
 
                     </ul>
 
+
                 </nav>
+
+                <h1 id="re">BMW</h1>
+
+                <div class="sidebar">
+                    
+                    <i id="close" onclick=hidemenu() class="ri-close-line"></i>
+
+                    
+
+                    <ul>
+                       
+                        <li><a href="https://www.bmw.in/en/all-models.html">Models</a></li>
+                        <li><a
+                                href="https://www.bmw.in/en/topics/Fascination-BMW/electromobility2020-new/electric-cars.html">Electric</a>
+                        </li>
+                        <li><a href="https://www.bmw.in/en/configurator.html">Configurator</a></li>
+                        <li>Visit Online Shop</li>
+                        <li>More BMW</li>
+
+
+                    </ul>
+
+
+                </div>
+
+              
+
+                
 
                
 
 
-                <h1 id="re">BMW</h1>
+              
 
 
             </div>
@@ -322,6 +355,29 @@
 
 
     </main>
+
+    <script>
+
+        function showmenu(){
+            var side=document.querySelector(".sidebar");
+            side.style.display="flex";
+            document.querySelector("#menu-icon").style.display="none";
+
+        }
+
+        function hidemenu(){
+            var side=document.querySelector(".sidebar");
+            side.style.display="none";
+            document.querySelector("#menu-icon").style.display="flex";
+           
+
+
+        }
+
+
+
+
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
