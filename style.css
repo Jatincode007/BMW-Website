@@ -1282,6 +1282,10 @@ a {
         padding: 3.2px;
     }
 
+
+    #steer{
+        animation-timeline: view(80% 20%);
+    }
 }
 
 ;
