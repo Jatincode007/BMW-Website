@@ -1100,31 +1100,7 @@ a {
        margin-bottom: 8%;
     }
 
-    .page2{
-
-        background-size: contain;
-        height: 267.5px;
-
-    }
-
-    .heading2{
-        padding: 20% 5%;
-    }
-
-    .heading3{
-        padding: 12% 5%;
-    }
-
-    .page2-1{
-        background-size: contain;
-        height: 267.5px;
-
-    }
-
-    .page2-2{
-        background-size: contain;
-        height: 267.5px;
-    }
+   
 
     
 }
@@ -1242,6 +1218,26 @@ a {
 
 
 
+    }
+
+    .page2:hover {
+        transition: ease 200ms;
+        box-shadow: inset 10px 10px 100px 20px rgb(0, 0, 0);
+    
+    }
+    
+    .page2-1:hover {
+        transition: ease 200ms;
+        box-shadow: inset 10px 10px 100px 20px rgb(0, 0, 0);
+    
+    }
+    
+    .page2-2:hover {
+        transition: ease 200ms;
+        box-shadow: inset 100px 0px 100px 20px rgb(0, 0, 0);
+    
+    
+    
     }
 
 
