@@ -131,6 +131,7 @@ nav img {
 }
 
 .cursor {
+
     font-family: rejoy;
     z-index: 1;
     display: flex;
@@ -142,6 +143,9 @@ nav img {
     border-radius: 50%;
 
     background-size: cover;
+
+    
+
 
 
     transition: translate(-50%, -50%);
@@ -186,6 +190,8 @@ a {
 
 
 .page1-content {
+
+    cursor:grab;
 
 
 
